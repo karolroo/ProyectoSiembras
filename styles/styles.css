@@ -1,0 +1,239 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f2faf2; 
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(79, 158, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Agregar espacio entre los elementos */
+}
+
+.navbar-nav .nav-link {
+    color: #0b0b0b; /* Cambiar el color del texto */
+    font-size: 18px;
+}
+.navbar-nav .nav-item .nav-link {
+    transition: background-color 0.3s; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: rgb(79, 158, 70); 
+}
+
+/* Estilos para la sección de encabezado */
+.header18 {
+    
+    background-size: 100%;
+    background-position: center;
+    color: #c2b457; /* Color del texto */
+}
+
+/* Estilos para la sección del artículo */
+.article2 {
+    padding: 50px 0; /* Añadir espacio alrededor del contenido */
+}
+
+.article2 img {
+    border-radius: 10px; /* Agregar esquinas redondeadas a la imagen */
+}
+
+.article2 h1 {
+    color: #e5bb32; /* Color del título */
+    font-size: 2.5rem; /* Tamaño del título */
+}
+
+.article2 p {
+    font-size: 1.1rem; /* Tamaño del texto */
+}
+
+.header-banner {
+    position: relative;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+}
+
+.header-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(14, 14, 14);
+}
+
+.content-wrap h1 {
+    font-size: 36px; 
+}
+
+.content-wrap p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+}
+
+.mbr-section-btn {
+    margin-top: 20px; 
+}
+.cid-u2YJzxHFy7 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    overflow: hidden;
+  }
+  .cid-u2YJzxHIcb {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: transparent;
+  }
+  .cid-u2YJzxHIcb .mbr-fallback-image.disabled {
+    display: none;
+  }
+  .cid-u2YJzxHIcb .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .cid-u2YJzxHIcb .row {
+    justify-content: center;
+  }
+  .cid-u2YJzxHIcb .item {
+    margin-bottom: 2rem;
+  }
+  
+  .cid-u2YJzxHIcb .item .item-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ffffff;
+    padding: 2.25rem;
+  }
+  
+  .cid-u2YJzxHIcb .content-head {
+    max-width: 800px;
+  }
+/* Estilos personalizados */
+.container {
+    padding: 20px;
+}
+.card-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.mbr-text {
+    color: #666;
+    font-size: 18px;
+}
+.text-black {
+    color: black;
+    text-decoration: none;
+}
+.item-wrapper:hover {
+    background-color: #f5f5f5;
+}
+.contact-section-container {
+    background-color: #e3c364; /* Color del título */
+    ; /* Color de fondo blanco */
+    padding: 2px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Bordes redondeados para el cuadro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; 
+}
+
+.contact-section-container .row {
+    margin-top: 20px; 
+}
+
+.contact-section-container .item {
+    margin-bottom: 20px; 
+}
+.cid-u2YJzxHAyc {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+  }
+
+  .cid-u2YJzxHAyc .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+  }
+
+  .cid-u2YJzxHAyc img,
+  .cid-u2YJzxHAyc .item-img {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .cid-u2YJzxHAyc .item:focus,
+  .cid-u2YJzxHAyc span:focus {
+    outline: none;
+  }
+
+  .cid-u2YJzxHAyc .item {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    .cid-u2YJzxHAyc .item {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cid-u2YJzxHAyc .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .cid-u2YJzxHAyc .mbr-section-title {
+    color: #232323;
+  }
+
+  .cid-u2YJzxHAyc .mbr-text,
+  .cid-u2YJzxHAyc .mbr-section-btn {
+    color: #232323;
+  }
+
+  .cid-u2YJzxHAyc .item-title {
+    color: #232323;
+  }
+
+  .cid-u2YJzxHAyc .content-head {
+    max-width: 800px;
+  }
+
+
+
+  
