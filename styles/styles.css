@@ -143,6 +143,9 @@
 .container {
     padding: 20px;
 }
+.custom-container {
+  margin-top: 50px; 
+}
 .card-title {
     color: #333;
     font-size: 24px;
@@ -232,6 +235,22 @@
 
   .cid-u2YJzxHAyc .content-head {
     max-width: 800px;
+  }
+  .creators-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px;
+    margin-bottom: 10px; 
+  }
+  
+  .creator {
+    text-align: center;
+  }
+  
+  .creator img {
+    width: 70px;
+    height: auto; 
   }
 
 
